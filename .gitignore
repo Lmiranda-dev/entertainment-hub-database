@@ -1,0 +1,32 @@
+# Credentials and sensitive data
+.env
+*.env
+config/credentials.yml
+config/database.yml
+secrets.txt
+passwords.txt
+
+# Database files
+*.db
+*.sqlite
+*.log
+backup/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+~*
+
+# Node modules (if you add any app code later)
+node_modules/
